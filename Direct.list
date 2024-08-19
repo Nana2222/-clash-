@@ -28,6 +28,7 @@ IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
 # 肥羊allinone
+DOMAIN,feiyangdigital.tg.zqhswlive.ottdns.com
 DOMAIN,feiyangdigital.tg.ystenlive.ottdns.com
 DOMAIN,feiyangdigital.tg.bestlive.ottdns.com
 DOMAIN,feiyangdigital.tg.wasulive.ottdns.com
