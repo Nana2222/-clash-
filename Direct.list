@@ -27,6 +27,12 @@ IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
+# 自用域名
+DOMAIN,395313.xyz
+
+
+
+
 # 肥羊allinone
 DOMAIN,feiyangdigital.tg.zqhswlive.ottdns.com
 DOMAIN,feiyangdigital.tg.ystenlive.ottdns.com
