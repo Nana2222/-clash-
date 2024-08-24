@@ -28,7 +28,7 @@ IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
 # 自用域名
-DOMAIN,395313.xyz
+DOMAIN-SUFFIX,395313.xyz
 
 
 
