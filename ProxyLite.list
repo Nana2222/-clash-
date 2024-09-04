@@ -13,6 +13,9 @@ IP-CIDR,103.115.43.2/32,no-resolve
 # Docker
 DOMAIN-KEYWORD,docker
 
+#Pikpak
+DOMAIN-KEYWORD,pikpak
+
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
