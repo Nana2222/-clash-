@@ -31,10 +31,10 @@ IP-CIDR,114.114.115.115/32,no-resolve
 DOMAIN-SUFFIX,395313.xyz
 
 # 奶酪rawchat
-DOMAIN,chat.rawchat.top
-DOMAIN,chat.freegpts.org
-DOMAIN,gpt.github.cn.com
-DOMAIN,new.oaifree.com
+#DOMAIN,chat.rawchat.top
+#DOMAIN,chat.freegpts.org
+#DOMAIN,gpt.github.cn.com
+#DOMAIN,new.oaifree.com
 
 
 
