@@ -16,6 +16,13 @@ DOMAIN-KEYWORD,docker
 #Pikpak
 DOMAIN-KEYWORD,pikpak
 
+#小雅
+DOMAIN-SUFFIX,xiaoya.pro
+DOMAIN-SUFFIX,free.hr
+DOMAIN-SUFFIX,zhuifan.link
+DOMAIN-KEYWORD,mypikpak
+DOMAIN-KEYWORD,sharepoint
+
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
