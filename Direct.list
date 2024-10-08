@@ -30,6 +30,10 @@ IP-CIDR,114.114.115.115/32,no-resolve
 # 自用域名
 DOMAIN-SUFFIX,395313.xyz
 
+# 机场域名
+DOMAIN-SUFFIX,521699.xyz
+
+
 #微信
 DOMAIN,extshort.weixin.qq.com
 DOMAIN,minorshort.weixin.qq.com
