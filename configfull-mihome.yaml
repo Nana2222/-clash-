@@ -201,7 +201,7 @@ rule-providers:
   direct1: { <<: *class, url: "https://raw.githubusercontent.com/Nana2222/Rules/refs/heads/main/Direct.list" }
   proxy1: { <<: *class, url: "https://raw.githubusercontent.com/Nana2222/Rules/refs/heads/main/ProxyLite.list" }
   #qcy自定义测试规则
-  proxylite: { <<: *domainplus, url: "https://raw.githubusercontent.com/qcyhub/rule/master/ProxyLite.list" }
+  proxylite: { <<: *domainplus, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/ProxyLite.list" }
   ai: { <<: *domainplus, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/AI.list" }
   #正式规则
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs" }
