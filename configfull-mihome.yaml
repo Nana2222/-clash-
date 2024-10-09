@@ -36,7 +36,7 @@ geodata-mode: false
 # GEO 文件加载模式（standard：标准加载器/memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)）
 geodata-loader: standard
 geo-auto-update: true
-geo-update-interval: 48
+geo-update-interval: 24
 geox-url:
   geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
   mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.metadb"
