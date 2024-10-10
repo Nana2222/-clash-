@@ -127,12 +127,7 @@ dns:
       - "https://dns.google/dns-query"
  
    
-#proxies:
-#- name: "直连"
-#  type: direct
-#  udp: true
-
-  
+ 
 # 策略组
 proxy-groups:
 #分流分组
@@ -164,7 +159,7 @@ proxy-groups:
 # 分流Policy 
 rules:
   - RULE-SET,private_domain,DIRECT
-  - RULE-SET,direct1,DIRECT
+  - RULE-SET,direct1, 全球直连
   - RULE-SET,proxy1, 节点选择
   - RULE-SET,apple_domain, Apple
   - RULE-SET,proxylite, 节点选择
@@ -174,7 +169,7 @@ rules:
   - RULE-SET,youtube_domain, YouTube
   - RULE-SET,twitter_domain, 节点选择
   - RULE-SET,spotify_domain, Spotify
-  - RULE-SET,bilibili_domain,DIRECT
+  - RULE-SET,bilibili_domain, 全球直连
   - RULE-SET,google_domain, Google
   - RULE-SET,microsoft_domain, Microsoft
   - RULE-SET,telegram_domain, Telegram
