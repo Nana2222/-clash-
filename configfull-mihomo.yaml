@@ -131,30 +131,30 @@ dns:
 # 策略组
 proxy-groups:
 #分流分组
-  - {name: 节点选择, type: select, proxies: [ 香港故转, 港美故转, 全节故转, 全部节点], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Chained.png }
-  - {name: YouTube, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png }
-  - {name: Google, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
-  - {name: ChatGPT, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
-  - {name: GitHub, type: select, proxies: [ 节点选择,DIRECT], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png }
-  - {name: Microsoft, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png }  
-  - {name: Spotify, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png }
-  - {name: Cloudflare, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Flyint.png }
-  - {name: Telegram, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
-  - {name: NETFLIX, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png }
-  - {name: Apple, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png }
-  - {name: 全球直连, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/ASN.png }
-  - {name: 漏网之鱼, type: select, proxies: [ 节点选择,DIRECT], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png }
+  - {name: 节点选择, type: select, proxies: [ 香港故转, 港美故转, 全节故转, 全部节点], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Microsoft_Copilot.png }
+  - {name: YouTube, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/YouTube.png }
+  - {name: Google, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Google.png }
+  - {name: ChatGPT, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/ChatGPT.png }
+  - {name: GitHub, type: select, proxies: [ 节点选择,DIRECT], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Github.png }
+  - {name: Microsoft, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Microsoft.png }  
+  - {name: Spotify, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Spotify.png }
+  - {name: Cloudflare, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Cloud.png }
+  - {name: Telegram, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Telegram.png }
+  - {name: NETFLIX, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Netflix.png }
+  - {name: Apple, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Apple_rainbow.png }
+  - {name: 全球直连, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Network.png }
+  - {name: 漏网之鱼, type: select, proxies: [ 节点选择,DIRECT], icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Meta.png }
 
 #节点分组
-  - {name: 香港故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(港|HK|HK2|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Auto.png }
-  - {name: 港美故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(港|HK|HK2|US|(?i)Hong))^((?!(SG|台|韩|新|NG)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Available.png  }
-  - {name: 全节故转, type: fallback, include-all: true, interval: 300, filter: "^((?!(DIRECT)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bywave.png }
-  - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(DIRECT)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png }
-  - {name: 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SWCloud.png }
-  - {name: 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }
-  - {name: 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
-  - {name: 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
-  - {name: 全部节点, type: select, include-all: true, filter: "^((?!(DIRECT)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Suda.png }
+  - {name: 香港故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(港|HK|HK2|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$",  icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Load_balancing_3.png }
+  - {name: 港美故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(港|HK|HK2|US|(?i)Hong))^((?!(SG|台|韩|新|NG)).)*$",  icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Magic_Timer.png  }
+  - {name: 全节故转, type: fallback, include-all: true, interval: 300, filter: "^((?!(DIRECT)).)*$", icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Niche_Link.png }
+  - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(DIRECT)).)*$",  icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Transfer.png }
+  - {name: 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$",  icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Other.png }
+  - {name: 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong",  icon: hhttps://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Hong_Kong.png }
+  - {name: 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan",  icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Japan.png }
+  - {name: 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states",  https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/USA.png }
+  - {name: 全部节点, type: select, include-all: true, filter: "^((?!(DIRECT)).)*$",  icon: https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main/Icon/Color/Large/Omission.png }
 
 # 分流Policy 
 rules:
