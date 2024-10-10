@@ -169,6 +169,7 @@ rules:
   - RULE-SET,apple_domain, Apple
   - RULE-SET,proxylite, 节点选择
   - RULE-SET,ai, ChatGPT
+  - RULE-SET,ai-classical, ChatGPT
   - RULE-SET,github_domain, GitHub
   - RULE-SET,youtube_domain, YouTube
   - RULE-SET,twitter_domain, 节点选择
@@ -209,6 +210,9 @@ rule-providers:
   
   # 隐私网络/局域网
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs" }
+
+  # 人工智能
+  ai-classical: {<<: *class,  url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/AI.list}
   
   # 油管视频
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs" }
