@@ -153,7 +153,7 @@ proxy-groups:
   - {name: 港美故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(港|HK|HK2|US|(?i)Hong))^((?!(SG|台|韩|新|NG)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Available.png  }
   - {name: 全节故转, type: fallback, include-all: true, interval: 300, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png }
   - {name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png }
-  - {name: 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SWCloud.png }
+  - {name: 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Godetia.png }
   - {name: 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png }
   - {name: 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png }
   - {name: 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states",  icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png }
