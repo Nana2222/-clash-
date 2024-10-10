@@ -141,7 +141,7 @@ proxy-groups:
   - {name: Cloudflare, type: select, proxies: [DIRECT, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Flyint.png }
   - {name: Telegram, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: NETFLIX, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png }
-  - {name: Apple, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png }
+  - {name:🍎 Apple, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png }
   - {name: 全球直连, type: select, proxies: [DIRECT, 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/ASN.png }
   - {name: 漏网之鱼, type: select, proxies: [ 节点选择,DIRECT], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png }
 
@@ -161,7 +161,7 @@ rules:
   - RULE-SET,private_domain,DIRECT
   - RULE-SET,direct1, 全球直连
   - RULE-SET,proxy1, 节点选择
-  - RULE-SET,apple_domain, Apple
+  - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite, 节点选择
   - RULE-SET,ai, ChatGPT
   - RULE-SET,ai-classical, ChatGPT
