@@ -139,7 +139,7 @@ proxy-groups:
   - {name: Google, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
   - {name: ChatGPT, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
   - {name: GitHub, type: select, proxies: [ 节点选择,直连], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png }
-  - {name: Microsoft, type: select, proxies: [直连T, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png }  
+  - {name: Microsoft, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png }  
   - {name: Spotify, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png }
   - {name: Cloudflare, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Flyint.png }
   - {name: Telegram, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
