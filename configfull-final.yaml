@@ -141,7 +141,7 @@ proxy-groups:
   - {name: GitHub, type: select, proxies: [ 节点选择,直连], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png }
   - {name: Microsoft, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png }  
   - {name: Spotify, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png }
-  - {name: Cloudflare, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Flyint.png }
+  - {name: Cloudflare, type: select, proxies: [直连, 节点选择 ], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Catnet.png }
   - {name: Telegram, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: NETFLIX, type: select, proxies: [ 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png }
   - {name: Apple, type: select, proxies: [直连, 节点选择], icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png }
